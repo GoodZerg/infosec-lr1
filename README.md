@@ -91,14 +91,12 @@ GitHub Actions запускает тесты, SpotBugs и OWASP Dependency-Check
 
 ### Результаты проверки
 
-Интеграционные тесты:
-
-![Интеграционные тесты](docs/img/tests.png)
-
 Статический анализ SpotBugs:
 
-![Результат SpotBugs](docs/img/spotbugs.png)
+![Успешный запуск SpotBugs в GitHub Actions](docs/img/spotbugs.png)
 
 Анализ зависимостей OWASP Dependency-Check:
 
 ![Результат OWASP Dependency-Check](docs/img/dependency-check.png)
+
+[Последний успешный запуск CI Security](https://github.com/GoodZerg/infosec-lr1/actions/runs/39764256380)
