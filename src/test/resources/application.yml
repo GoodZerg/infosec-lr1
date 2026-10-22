@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:secure-api-test;DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+
+security:
+  jwt:
+    secret: VGVzdFNlY3JldEtleUZvckluZm9CZXpMUjEyMDI2ISE=
+    ttl: PT5M

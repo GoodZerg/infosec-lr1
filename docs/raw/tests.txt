@@ -1,0 +1,8 @@
+mvn clean verify
+
+-------------------------------------------------------------------------------
+Test set: ru.itmo.infosec.ApiIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 42.28 s -- in ru.itmo.infosec.ApiIntegrationTest
+
+BUILD SUCCESS

@@ -1,0 +1,10 @@
+mvn spotbugs:check
+
+SpotBugs version: 4.10.5
+Project: secure-api
+Classes analyzed: 18
+Bug instances: 0
+Analysis errors: 0
+Missing classes: 0
+
+BUILD SUCCESS

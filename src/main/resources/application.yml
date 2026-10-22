@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: secure-api
+  datasource:
+    url: jdbc:h2:file:./data/secure-api;AUTO_SERVER=TRUE
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  h2:
+    console:
+      enabled: false
+
+server:
+  error:
+    include-message: never
+    include-stacktrace: never
+  servlet:
+    session:
+      tracking-modes: cookie
+
+security:
+  jwt:
+    secret: ${JWT_SECRET_BASE64}
+    ttl: ${JWT_TTL:PT15M}
+
